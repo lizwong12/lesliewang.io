@@ -1,11 +1,11 @@
 ---
-title: Documentation
-next: leetcode
+title: Demo Page
+type: docs
+prev: _index
+next: docs/folder/
 ---
 
-This is a demo of the theme's documentation layout.
-
-## Hello, World!
+## Leetcode Backtracking
 
 ```go {filename="main.go"}
 package main

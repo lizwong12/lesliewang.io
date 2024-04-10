@@ -25,7 +25,7 @@ menu:
       pageRef: /about
       weight: 2
     - name: Contact ↗
-      url: "https://github.com/imfing"
+      url: "https://github.com/lizwong12/"
       weight: 3
     - name: Search
       weight: 4
@@ -38,7 +38,7 @@ menu:
         icon: github
     - name: Twitter
       weight: 6
-      url: "https://twitter.com/"
+      url: ""
       params:
         icon: x-twitter
 
