@@ -11,10 +11,5 @@ The task is to remove 'k' digits from a number represented as a string, so that 
 ### Why This Approach?
 When you look at the problem, the immediate intuition might be to remove the highest digits. However, the position of the digits plays a crucial role. For example, in the number '1432219', removing the first 4 is more impactful than removing one of the 2, even though 4 is not the highest digit in the entire number. 
 Given two sequences of digit of the same length, it is the leftmost distinct digits that determine the superior of the two numbers. 
-The optimal strategy is to ensure the resulting number is as small as possible from left to right, because digits on the left have a higher value. This leads use to the idea of using a ###monotonically### increasing stack. 
+The optimal strategy is to ensure the resulting number is as small as possible from left to right, because digits on the left have a higher value. This leads use to the idea of using a ###monotonically increasing stack. 
 
-For example, A = 1axxx, B = 1bxxx, if the digits a > b , then A > B
-
-With this insight, the first intuition we got for our problem is that we should iterate from the left to right, when removing the digits.
-
-For exaple we have a num 425, if we are asked to remove just one digit, then from left to right, we have canditate 4, 2, and 5. 
